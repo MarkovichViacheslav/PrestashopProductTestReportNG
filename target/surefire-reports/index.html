@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Products_Management">
+              <span class="suite-name border-failed">Products Management</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Products_Management">
+                    <span>C:\Users\1\Desktop\assignment4\target\test-classes\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Products_Management">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Products_Management">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Products_Management">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Products_Management">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Products_Management">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Products_Management">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 1 failed,  2 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Products_Management" class="hide-methods failed suite-Products_Management"> (hide)</a> <!-- hide-methods failed suite-Products_Management -->
+                      <a href="#" panel-name="suite-Products_Management" class="show-methods failed suite-Products_Management"> (show)</a> <!-- show-methods failed suite-Products_Management -->
+                    </span>
+                    <div class="method-list-content failed suite-Products_Management">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Products_Management" title="myprojects.automation.assignment4.tests.CreateProductTest" hash-for-method="createNewProduct">createNewProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Products_Management -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Products_Management" class="hide-methods skipped suite-Products_Management"> (hide)</a> <!-- hide-methods skipped suite-Products_Management -->
+                      <a href="#" panel-name="suite-Products_Management" class="show-methods skipped suite-Products_Management"> (show)</a> <!-- show-methods skipped suite-Products_Management -->
+                    </span>
+                    <div class="method-list-content skipped suite-Products_Management">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Products_Management" title="myprojects.automation.assignment4.tests.CreateProductTest" hash-for-method="checkProductDisplayedInTheTable">checkProductDisplayedInTheTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Products_Management" title="myprojects.automation.assignment4.tests.CreateProductTest" hash-for-method="checkProductValues">checkProductValues</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Products_Management -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Products_Management" class="hide-methods passed suite-Products_Management"> (hide)</a> <!-- hide-methods passed suite-Products_Management -->
+                      <a href="#" panel-name="suite-Products_Management" class="show-methods passed suite-Products_Management"> (show)</a> <!-- show-methods passed suite-Products_Management -->
+                    </span>
+                    <div class="method-list-content passed suite-Products_Management">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Products_Management" title="myprojects.automation.assignment4.tests.CreateProductTest" hash-for-method="loginTest(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)">loginTest(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Products_Management -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Products_Management" class="panel Products_Management">
+          <div class="suite-Products_Management-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">myprojects.automation.assignment4.tests.CreateProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewProduct">
+                  </a> <!-- createNewProduct -->
+                  <span class="method-name">createNewProduct</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=61.0.3163.100)
+  (Driver info: chromedriver=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a),platform=Windows NT 6.1.7601 SP1 x86) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;3.6.0&apos;, revision: &apos;6fbf3ec767&apos;, time: &apos;2017-09-27T15:28:36.4Z&apos;
+System info: host: &apos;1-ПК&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, hasTouchScreen=false, platform=XP, acceptSslCerts=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, platformName=XP, setWindowRect=true, unexpectedAlertBehaviour=, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.32.498550 (9dec58e66c31bcc53a9ce3c7226f0c1c5810906a), userDataDir=C:\Users\1\AppData\Local\Temp\scoped_dir1204_32408}, takesHeapSnapshot=true, pageLoadStrategy=normal, unhandledPromptBehavior=, databaseEnabled=false, handlesAlerts=true, version=61.0.3163.100, browserConnectionEnabled=false, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 57ef51323e1b0c1275074d8dc223a83f
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:82)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:45)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.getTagName(RemoteWebElement.java:122)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement$1.invoke(EventFiringWebDriver.java:376)
+	at com.sun.proxy.$Proxy7.getTagName(Unknown Source)
+	at myprojects.automation.assignment4.utils.logging.EventHandler.afterClickOn(EventHandler.java:93)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$1.invoke(EventFiringWebDriver.java:86)
+	at com.sun.proxy.$Proxy5.afterClickOn(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:390)
+	at myprojects.automation.assignment4.GeneralActions.createProduct(GeneralActions.java:89)
+	at myprojects.automation.assignment4.tests.CreateProductTest.createNewProduct(CreateProductTest.java:37)
+... Removed 39 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Products_Management-class-failed -->
+          <div class="suite-Products_Management-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">myprojects.automation.assignment4.tests.CreateProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkProductDisplayedInTheTable">
+                  </a> <!-- checkProductDisplayedInTheTable -->
+                  <span class="method-name">checkProductDisplayedInTheTable</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CreateProductTest.checkProductDisplayedInTheTable()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@108b2d7] depends on not successfully finished methods
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkProductValues">
+                  </a> <!-- checkProductValues -->
+                  <span class="method-name">checkProductValues</span>
+                  <div class="stack-trace">java.lang.Throwable: Method CreateProductTest.checkProductValues()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@108b2d7] depends on not successfully finished methods
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Products_Management-class-skipped -->
+          <div class="suite-Products_Management-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">myprojects.automation.assignment4.tests.CreateProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)">
+                  </a> <!-- loginTest(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Products_Management-class-passed -->
+        </div> <!-- panel Products_Management -->
+        <div panel-name="test-xml-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\1\Desktop\assignment4\target\test-classes\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Products Management&quot;&gt;
+  &lt;test name=&quot;Create New Product [Chrome]&quot;&gt;
+    &lt;parameter name=&quot;defaultBrowser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;myprojects.automation.assignment4.tests.CreateProductTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Create New Product [Chrome] --&gt;
+&lt;/suite&gt; &lt;!-- Products Management --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Products Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Create New Product [Chrome] (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Products Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Products Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Products_Management');
+function tableData_Products_Management() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'createNewProduct')
+data.setCell(0, 2, 'myprojects.automation.assignment4.tests.CreateProductTest')
+data.setCell(0, 3, 10619);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'loginTest')
+data.setCell(1, 2, 'myprojects.automation.assignment4.tests.CreateProductTest')
+data.setCell(1, 3, 6984);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkProductDisplayedInTheTable')
+data.setCell(2, 2, 'myprojects.automation.assignment4.tests.CreateProductTest')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'checkProductValues')
+data.setCell(3, 2, 'myprojects.automation.assignment4.tests.CreateProductTest')
+data.setCell(3, 3, 0);
+window.suiteTableData['Products_Management']= { tableData: data, tableDiv: 'times-div-Products_Management'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 17 seconds</span>
+              <div id="times-div-Products_Management">
+              </div> <!-- times-div-Products_Management -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Products Management</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Logging to website <br /></span>
+                <span class="reporter-method-output">[00:23:33.773] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/</span>
+                <span class="reporter-method-output">[00:23:35.998] Search for element By.id: email</span>
+                <span class="reporter-method-output">[00:23:36.12 ] Change value of input: webinar.test@gmail.com
+</span>
+                <span class="reporter-method-output">[00:23:36.502] Changed element input</span>
+                <span class="reporter-method-output">[00:23:36.502] Search for element By.id: passwd</span>
+                <span class="reporter-method-output">[00:23:36.563] Change value of input: Xcg7299bnSmMuRLp9ITw
+</span>
+                <span class="reporter-method-output">[00:23:36.926] Changed element input</span>
+                <span class="reporter-method-output">[00:23:36.926] Search for element By.name: submitLogin</span>
+                <span class="reporter-method-output">[00:23:36.987] Click on element button</span>
+                <span class="reporter-method-output">[00:23:37.225] Succesfully clicking on button</span>
+                <span class="reporter-method-output">[00:23:40.313] Search for element By.id: subtab-AdminCatalog</span>
+                <span class="reporter-method-output">[00:23:40.6  ] Search for element By.tagName: h2</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">createNewProduct</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Add new Product in admin panel <br /></span>
+                <span class="reporter-method-output">[00:23:40.743] Search for element By.id: subtab-AdminCatalog</span>
+                <span class="reporter-method-output">[00:23:40.931] Search for element By.id: subtab-AdminProducts</span>
+                <span class="reporter-method-output">[00:23:41.032] Found element li</span>
+                <span class="reporter-method-output">[00:23:41.052] Click on element li</span>
+                <span class="reporter-method-output">[00:23:45.003] Search for element By.id: page-header-desc-configuration-add</span>
+                <span class="reporter-method-output">[00:23:45.112] Click on element a</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Products_Management" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">myprojects.automation.assignment4.tests.CreateProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(webinar.test@gmail.com, Xcg7299bnSmMuRLp9ITw)</span>
+                <span class="method-start">5328 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">createNewProduct</span>
+                <span class="method-start">12315 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
