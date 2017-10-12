@@ -1,648 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="12" passed="12">
+<testng-results skipped="4" failed="0" total="4" passed="0">
   <reporter-output>
-    <line>
-      <![CDATA[Logging to website <br />]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:31.694] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:33.682] Search for element By.id: email]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:33.789] Change value of input: webinar.test@gmail.com
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:34.213] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:34.213] Search for element By.id: passwd]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:34.277] Change value of input: Xcg7299bnSmMuRLp9ITw
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:34.631] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:34.631] Search for element By.name: submitLogin]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:34.695] Click on element button]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:37.966] Search for element By.id: subtab-AdminCatalog]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:38.312] Search for element By.tagName: h2]]>
-    </line>
-    <line>
-      <![CDATA[Add new Product in admin panel <br />]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:38.465] Search for element By.id: subtab-AdminCatalog]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:38.551] Click on element li]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:42.046] Search for element By.id: page-header-desc-configuration-add]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:42.19 ] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:47.552] Search for element By.id: form_step1_name_1]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:47.729] Search for element By.id: form_step1_name_1]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:47.792] Change value of input: New Product 1507796438465
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:49.517] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:49.518] Search for element By.linkText: Количества]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:49.628] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:49.892] Search for element By.id: form_step3_qty_0]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:49.994] Change value of input: 
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:50.233] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:50.233] Search for element By.id: form_step3_qty_0]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:50.265] Change value of input: 9
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:50.375] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:50.375] Search for element By.linkText: Цены]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:50.478] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:50.749] Search for element By.id: form_step2_price_ttc]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:50.916] Change value of input: 
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:51.17 ] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:51.171] Search for element By.id: form_step2_price_ttc]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:51.211] Change value of input: 12,71
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:51.636] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:51.637] Search for element By.className: switch-input]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:51.697] Click on element div]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:51.895] Search for element By.className: growl-close]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:52.382] Search for element By.className: growl-close]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:52.467] Click on element div]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:52.651] Search for element By.xpath: //button[@type='submit']/span[contains(text(), 'Сохранить')]]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:52.723] Click on element span]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:52.96 ] Search for element By.className: growl-close]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:53.049] Search for element By.className: growl-close]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:53.296] Click on element div]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:53.467] Search for element By.xpath: //button[@type='submit']/span[contains(text(), 'Сохранить')]]]>
-    </line>
-    <line>
-      <![CDATA[Checking product is displayed on the ShopMainPage <br />]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:53.563] Navigate to http://prestashop-automation.qatestlab.com.ua/]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:55.101] Search for element By.partialLinkText: Все товары]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:55.368] Search for element By.partialLinkText: Все товары]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:55.504] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:56.82 ] Search for element By.xpath: //h1[@class='h3 product-title']/a]]>
-    </line>
-    <line>
-      <![CDATA[Checking product name, quantity and price corresponds to filled in AdminPanel <br />]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:57.364] Search for element By.xpath: //h1[@class='h3 product-title']/a]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:57.411] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:57.571] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:57.641] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:57.71 ] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:57.784] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:57.853] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:57.944] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:59.114] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:59.239] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:59.344] Search for element By.className: product-quantities]]>
-    </line>
-    <line>
-      <![CDATA[[11:20:59.453] Search for element By.className: current-price]]>
-    </line>
-    <line>
-      <![CDATA[Logging to website <br />]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:03.39 ] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:04.514] Search for element By.id: email]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:04.64 ] Change value of input: webinar.test@gmail.com
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:05.077] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:05.077] Search for element By.id: passwd]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:05.153] Change value of input: Xcg7299bnSmMuRLp9ITw
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:06.184] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:06.184] Search for element By.name: submitLogin]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:06.266] Click on element button]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:09.198] Search for element By.id: subtab-AdminCatalog]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:11.743] Search for element By.tagName: h2]]>
-    </line>
-    <line>
-      <![CDATA[Add new Product in admin panel <br />]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:12.853] Search for element By.id: subtab-AdminCatalog]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:13.551] Click on element li]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:16.176] Search for element By.id: page-header-desc-configuration-add]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:19.875] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:27.781] Search for element By.id: form_step1_name_1]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:28.009] Search for element By.id: form_step1_name_1]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:28.102] Change value of input: New Product 1507796472853
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:28.903] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:28.903] Search for element By.linkText: Количества]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:29.146] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:29.924] Search for element By.id: form_step3_qty_0]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:30.052] Change value of input: 
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:30.432] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:30.432] Search for element By.id: form_step3_qty_0]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:30.601] Change value of input: 91
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:31.061] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:31.061] Search for element By.linkText: Цены]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:31.312] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:32.191] Search for element By.id: form_step2_price_ttc]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:32.32 ] Change value of input: 
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:32.705] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:32.706] Search for element By.id: form_step2_price_ttc]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:32.888] Change value of input: 49,98
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:33.448] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:33.448] Search for element By.className: switch-input]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:33.622] Click on element div]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:34.159] Search for element By.className: growl-close]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:34.758] Search for element By.className: growl-close]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:34.867] Click on element div]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:35.223] Search for element By.xpath: //button[@type='submit']/span[contains(text(), 'Сохранить')]]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:35.373] Click on element span]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:35.942] Search for element By.className: growl-close]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:36.874] Search for element By.className: growl-close]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:36.981] Click on element div]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:37.356] Search for element By.xpath: //button[@type='submit']/span[contains(text(), 'Сохранить')]]]>
-    </line>
-    <line>
-      <![CDATA[Checking product is displayed on the ShopMainPage <br />]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:37.597] Navigate to http://prestashop-automation.qatestlab.com.ua/]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:39.346] Search for element By.partialLinkText: Все товары]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:40.113] Search for element By.partialLinkText: Все товары]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:40.519] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:42.523] Search for element By.xpath: //h1[@class='h3 product-title']/a]]>
-    </line>
-    <line>
-      <![CDATA[Checking product name, quantity and price corresponds to filled in AdminPanel <br />]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:45.54 ] Search for element By.xpath: //h1[@class='h3 product-title']/a]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:46.238] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:47.583] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:48.839] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:50.128] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:51.48 ] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:52.832] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:55.673] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:56.847] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:57.705] Search for element By.className: product-quantities]]>
-    </line>
-    <line>
-      <![CDATA[[11:21:58.56 ] Search for element By.className: current-price]]>
-    </line>
-    <line>
-      <![CDATA[Logging to website <br />]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:10.301] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:14.214] Search for element By.id: email]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:14.481] Change value of input: webinar.test@gmail.com
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:14.818] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:14.818] Search for element By.id: passwd]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:16.832] Change value of input: Xcg7299bnSmMuRLp9ITw
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:17.851] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:17.851] Search for element By.name: submitLogin]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:18.038] Click on element button]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:19.581] Search for element By.id: subtab-AdminCatalog]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:22.511] Search for element By.tagName: h2]]>
-    </line>
-    <line>
-      <![CDATA[Add new Product in admin panel <br />]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:22.997] Search for element By.id: subtab-AdminCatalog]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:24.1  ] Click on element li]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:28.03 ] Search for element By.id: page-header-desc-configuration-add]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:28.095] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:34.515] Search for element By.id: form_step1_name_1]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:34.753] Search for element By.id: form_step1_name_1]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:34.81 ] Change value of input: New Product 1507796542997
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:35.13 ] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:35.13 ] Search for element By.linkText: Количества]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:35.177] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:35.388] Search for element By.id: form_step3_qty_0]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:35.445] Change value of input: 
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:35.54 ] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:35.54 ] Search for element By.id: form_step3_qty_0]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:35.578] Change value of input: 69
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:35.687] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:35.687] Search for element By.linkText: Цены]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:35.717] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:35.963] Search for element By.id: form_step2_price_ttc]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:36.011] Change value of input: 
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:36.228] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:36.228] Search for element By.id: form_step2_price_ttc]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:36.312] Change value of input: 1,05
-]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:36.526] Changed element input]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:36.526] Search for element By.className: switch-input]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:36.557] Click on element div]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:36.842] Search for element By.className: growl-close]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:37.092] Search for element By.className: growl-close]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:37.128] Click on element div]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:37.378] Search for element By.xpath: //button[@type='submit']/span[contains(text(), 'Сохранить')]]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:37.411] Click on element span]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:37.726] Search for element By.className: growl-close]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:37.818] Search for element By.className: growl-close]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:37.861] Click on element div]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:38.109] Search for element By.xpath: //button[@type='submit']/span[contains(text(), 'Сохранить')]]]>
-    </line>
-    <line>
-      <![CDATA[Checking product is displayed on the ShopMainPage <br />]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:38.185] Navigate to http://prestashop-automation.qatestlab.com.ua/]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:39.975] Search for element By.partialLinkText: Все товары]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:40.139] Search for element By.partialLinkText: Все товары]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:40.166] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:41.452] Search for element By.xpath: //h1[@class='h3 product-title']/a]]>
-    </line>
-    <line>
-      <![CDATA[Checking product name, quantity and price corresponds to filled in AdminPanel <br />]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:41.663] Search for element By.xpath: //h1[@class='h3 product-title']/a]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:41.692] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:41.793] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:41.889] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:41.982] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:42.076] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:42.171] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:42.277] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:42.383] Click on element a]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:43.916] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:44.122] Search for element By.tagName: h1]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:44.288] Search for element By.className: product-quantities]]>
-    </line>
-    <line>
-      <![CDATA[[11:22:44.334] Search for element By.className: current-price]]>
-    </line>
   </reporter-output>
-  <suite name="Products Management" duration-ms="148658" started-at="2017-10-12T08:20:26Z" finished-at="2017-10-12T08:22:54Z">
+  <suite name="Command line suite" duration-ms="47" started-at="2017-10-12T09:47:02Z" finished-at="2017-10-12T09:47:02Z">
     <groups>
     </groups>
-    <test name="Create New Product [Chrome]" duration-ms="34471" started-at="2017-10-12T08:20:26Z" finished-at="2017-10-12T08:21:00Z">
+    <test name="Command line test" duration-ms="47" started-at="2017-10-12T09:47:02Z" finished-at="2017-10-12T09:47:02Z">
       <class name="myprojects.automation.assignment4.tests.CreateProductTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@df4efb]" name="setUp" is-config="true" duration-ms="5586" started-at="2017-10-12T11:20:26Z" finished-at="2017-10-12T11:20:31Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="FAIL" signature="setUp(java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@1f792cf]" name="setUp" is-config="true" duration-ms="0" started-at="2017-10-12T12:47:02Z" finished-at="2017-10-12T12:47:02Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'defaultBrowser' is required by @Configuration on method setUp but has not been marked @Optional or defined
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'defaultBrowser' is required by @Configuration on method setUp but has not been marked @Optional or defined
+
+	at org.testng.internal.Parameters.createParameters(Parameters.java:154)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:361)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:84)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:178)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@df4efb]" name="loginTest" duration-ms="6786" started-at="2017-10-12T11:20:31Z" data-provider="getLoginAndPassword" finished-at="2017-10-12T11:20:38Z">
+        <test-method status="SKIP" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@1f792cf]" name="loginTest" duration-ms="8" started-at="2017-10-12T12:47:02Z" data-provider="getLoginAndPassword" finished-at="2017-10-12T12:47:02Z">
           <params>
             <param index="0">
               <value>
@@ -656,743 +69,133 @@
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[Logging to website <br />]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:31.694] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:33.682] Search for element By.id: email]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:33.789] Change value of input: webinar.test@gmail.com
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:34.213] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:34.213] Search for element By.id: passwd]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:34.277] Change value of input: Xcg7299bnSmMuRLp9ITw
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:34.631] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:34.631] Search for element By.name: submitLogin]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:34.695] Click on element button]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:37.966] Search for element By.id: subtab-AdminCatalog]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:38.312] Search for element By.tagName: h2]]>
-            </line>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="createNewProduct()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@df4efb]" name="createNewProduct" duration-ms="15098" started-at="2017-10-12T11:20:38Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.loginTest" finished-at="2017-10-12T11:20:53Z">
+        <test-method status="SKIP" signature="createNewProduct()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@1f792cf]" name="createNewProduct" duration-ms="0" started-at="2017-10-12T12:47:02Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.loginTest" finished-at="2017-10-12T12:47:02Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CreateProductTest.createNewProduct()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@1f792cf] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CreateProductTest.createNewProduct()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@1f792cf] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
-            <line>
-              <![CDATA[Add new Product in admin panel <br />]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:38.465] Search for element By.id: subtab-AdminCatalog]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:38.551] Click on element li]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:42.046] Search for element By.id: page-header-desc-configuration-add]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:42.19 ] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:47.552] Search for element By.id: form_step1_name_1]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:47.729] Search for element By.id: form_step1_name_1]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:47.792] Change value of input: New Product 1507796438465
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:49.517] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:49.518] Search for element By.linkText: Количества]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:49.628] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:49.892] Search for element By.id: form_step3_qty_0]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:49.994] Change value of input: 
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:50.233] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:50.233] Search for element By.id: form_step3_qty_0]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:50.265] Change value of input: 9
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:50.375] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:50.375] Search for element By.linkText: Цены]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:50.478] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:50.749] Search for element By.id: form_step2_price_ttc]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:50.916] Change value of input: 
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:51.17 ] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:51.171] Search for element By.id: form_step2_price_ttc]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:51.211] Change value of input: 12,71
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:51.636] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:51.637] Search for element By.className: switch-input]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:51.697] Click on element div]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:51.895] Search for element By.className: growl-close]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:52.382] Search for element By.className: growl-close]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:52.467] Click on element div]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:52.651] Search for element By.xpath: //button[@type='submit']/span[contains(text(), 'Сохранить')]]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:52.723] Click on element span]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:52.96 ] Search for element By.className: growl-close]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:53.049] Search for element By.className: growl-close]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:53.296] Click on element div]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:53.467] Search for element By.xpath: //button[@type='submit']/span[contains(text(), 'Сохранить')]]]>
-            </line>
           </reporter-output>
         </test-method> <!-- createNewProduct -->
-        <test-method status="PASS" signature="checkProductDisplayedInTheTable()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@df4efb]" name="checkProductDisplayedInTheTable" duration-ms="3800" started-at="2017-10-12T11:20:53Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.createNewProduct" finished-at="2017-10-12T11:20:57Z">
+        <test-method status="SKIP" signature="checkProductDisplayedInTheTable()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@1f792cf]" name="checkProductDisplayedInTheTable" duration-ms="0" started-at="2017-10-12T12:47:02Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.createNewProduct" finished-at="2017-10-12T12:47:02Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CreateProductTest.checkProductDisplayedInTheTable()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@1f792cf] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CreateProductTest.checkProductDisplayedInTheTable()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@1f792cf] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
-            <line>
-              <![CDATA[Checking product is displayed on the ShopMainPage <br />]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:53.563] Navigate to http://prestashop-automation.qatestlab.com.ua/]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:55.101] Search for element By.partialLinkText: Все товары]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:55.368] Search for element By.partialLinkText: Все товары]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:55.504] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:56.82 ] Search for element By.xpath: //h1[@class='h3 product-title']/a]]>
-            </line>
           </reporter-output>
         </test-method> <!-- checkProductDisplayedInTheTable -->
-        <test-method status="PASS" signature="checkProductValues()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@df4efb]" name="checkProductValues" duration-ms="2200" started-at="2017-10-12T11:20:57Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.checkProductDisplayedInTheTable" finished-at="2017-10-12T11:20:59Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Checking product name, quantity and price corresponds to filled in AdminPanel <br />]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:57.364] Search for element By.xpath: //h1[@class='h3 product-title']/a]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:57.411] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:57.571] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:57.641] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:57.71 ] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:57.784] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:57.853] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:57.944] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:59.114] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:59.239] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:59.344] Search for element By.className: product-quantities]]>
-            </line>
-            <line>
-              <![CDATA[[11:20:59.453] Search for element By.className: current-price]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- checkProductValues -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@df4efb]" name="tearDown" is-config="true" duration-ms="979" started-at="2017-10-12T11:20:59Z" finished-at="2017-10-12T11:21:00Z">
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@1f792cf]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-12T12:47:02Z" finished-at="2017-10-12T12:47:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- myprojects.automation.assignment4.tests.CreateProductTest -->
-    </test> <!-- Create New Product [Chrome] -->
-    <test name="Create New Product [IE]" duration-ms="59388" started-at="2017-10-12T08:21:00Z" finished-at="2017-10-12T08:22:00Z">
-      <class name="myprojects.automation.assignment4.tests.CreateProductTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@ba2a48]" name="setUp" is-config="true" duration-ms="2767" started-at="2017-10-12T11:21:00Z" finished-at="2017-10-12T11:21:03Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[internet explorer]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="SKIP" signature="checkProductValues()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@1f792cf]" name="checkProductValues" duration-ms="0" started-at="2017-10-12T12:47:02Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.checkProductDisplayedInTheTable" finished-at="2017-10-12T12:47:02Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method CreateProductTest.checkProductValues()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@1f792cf] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method CreateProductTest.checkProductValues()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@1f792cf] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1037)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:159)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:99)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
           <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@ba2a48]" name="loginTest" duration-ms="9463" started-at="2017-10-12T11:21:03Z" data-provider="getLoginAndPassword" finished-at="2017-10-12T11:21:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[webinar.test@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Xcg7299bnSmMuRLp9ITw]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Logging to website <br />]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:03.39 ] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:04.514] Search for element By.id: email]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:04.64 ] Change value of input: webinar.test@gmail.com
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:05.077] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:05.077] Search for element By.id: passwd]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:05.153] Change value of input: Xcg7299bnSmMuRLp9ITw
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:06.184] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:06.184] Search for element By.name: submitLogin]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:06.266] Click on element button]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:09.198] Search for element By.id: subtab-AdminCatalog]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:11.743] Search for element By.tagName: h2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="createNewProduct()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@ba2a48]" name="createNewProduct" duration-ms="24743" started-at="2017-10-12T11:21:12Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.loginTest" finished-at="2017-10-12T11:21:37Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Add new Product in admin panel <br />]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:12.853] Search for element By.id: subtab-AdminCatalog]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:13.551] Click on element li]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:16.176] Search for element By.id: page-header-desc-configuration-add]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:19.875] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:27.781] Search for element By.id: form_step1_name_1]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:28.009] Search for element By.id: form_step1_name_1]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:28.102] Change value of input: New Product 1507796472853
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:28.903] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:28.903] Search for element By.linkText: Количества]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:29.146] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:29.924] Search for element By.id: form_step3_qty_0]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:30.052] Change value of input: 
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:30.432] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:30.432] Search for element By.id: form_step3_qty_0]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:30.601] Change value of input: 91
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:31.061] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:31.061] Search for element By.linkText: Цены]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:31.312] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:32.191] Search for element By.id: form_step2_price_ttc]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:32.32 ] Change value of input: 
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:32.705] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:32.706] Search for element By.id: form_step2_price_ttc]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:32.888] Change value of input: 49,98
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:33.448] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:33.448] Search for element By.className: switch-input]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:33.622] Click on element div]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:34.159] Search for element By.className: growl-close]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:34.758] Search for element By.className: growl-close]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:34.867] Click on element div]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:35.223] Search for element By.xpath: //button[@type='submit']/span[contains(text(), 'Сохранить')]]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:35.373] Click on element span]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:35.942] Search for element By.className: growl-close]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:36.874] Search for element By.className: growl-close]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:36.981] Click on element div]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:37.356] Search for element By.xpath: //button[@type='submit']/span[contains(text(), 'Сохранить')]]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createNewProduct -->
-        <test-method status="PASS" signature="checkProductDisplayedInTheTable()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@ba2a48]" name="checkProductDisplayedInTheTable" duration-ms="7942" started-at="2017-10-12T11:21:37Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.createNewProduct" finished-at="2017-10-12T11:21:45Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Checking product is displayed on the ShopMainPage <br />]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:37.597] Navigate to http://prestashop-automation.qatestlab.com.ua/]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:39.346] Search for element By.partialLinkText: Все товары]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:40.113] Search for element By.partialLinkText: Все товары]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:40.519] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:42.523] Search for element By.xpath: //h1[@class='h3 product-title']/a]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- checkProductDisplayedInTheTable -->
-        <test-method status="PASS" signature="checkProductValues()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@ba2a48]" name="checkProductValues" duration-ms="13875" started-at="2017-10-12T11:21:45Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.checkProductDisplayedInTheTable" finished-at="2017-10-12T11:21:59Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Checking product name, quantity and price corresponds to filled in AdminPanel <br />]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:45.54 ] Search for element By.xpath: //h1[@class='h3 product-title']/a]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:46.238] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:47.583] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:48.839] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:50.128] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:51.48 ] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:52.832] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:55.673] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:56.847] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:57.705] Search for element By.className: product-quantities]]>
-            </line>
-            <line>
-              <![CDATA[[11:21:58.56 ] Search for element By.className: current-price]]>
-            </line>
           </reporter-output>
         </test-method> <!-- checkProductValues -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@ba2a48]" name="tearDown" is-config="true" duration-ms="596" started-at="2017-10-12T11:21:59Z" finished-at="2017-10-12T11:22:00Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- myprojects.automation.assignment4.tests.CreateProductTest -->
-    </test> <!-- Create New Product [IE] -->
-    <test name="Create New Product [FIREFOX]" duration-ms="54696" started-at="2017-10-12T08:22:00Z" finished-at="2017-10-12T08:22:54Z">
-      <class name="myprojects.automation.assignment4.tests.CreateProductTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@bc464]" name="setUp" is-config="true" duration-ms="10266" started-at="2017-10-12T11:22:00Z" finished-at="2017-10-12T11:22:10Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@bc464]" name="loginTest" duration-ms="12695" started-at="2017-10-12T11:22:10Z" data-provider="getLoginAndPassword" finished-at="2017-10-12T11:22:22Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[webinar.test@gmail.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Xcg7299bnSmMuRLp9ITw]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-            <line>
-              <![CDATA[Logging to website <br />]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:10.301] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:14.214] Search for element By.id: email]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:14.481] Change value of input: webinar.test@gmail.com
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:14.818] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:14.818] Search for element By.id: passwd]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:16.832] Change value of input: Xcg7299bnSmMuRLp9ITw
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:17.851] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:17.851] Search for element By.name: submitLogin]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:18.038] Click on element button]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:19.581] Search for element By.id: subtab-AdminCatalog]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:22.511] Search for element By.tagName: h2]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- loginTest -->
-        <test-method status="PASS" signature="createNewProduct()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@bc464]" name="createNewProduct" duration-ms="15185" started-at="2017-10-12T11:22:22Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.loginTest" finished-at="2017-10-12T11:22:38Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Add new Product in admin panel <br />]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:22.997] Search for element By.id: subtab-AdminCatalog]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:24.1  ] Click on element li]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:28.03 ] Search for element By.id: page-header-desc-configuration-add]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:28.095] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:34.515] Search for element By.id: form_step1_name_1]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:34.753] Search for element By.id: form_step1_name_1]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:34.81 ] Change value of input: New Product 1507796542997
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:35.13 ] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:35.13 ] Search for element By.linkText: Количества]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:35.177] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:35.388] Search for element By.id: form_step3_qty_0]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:35.445] Change value of input: 
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:35.54 ] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:35.54 ] Search for element By.id: form_step3_qty_0]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:35.578] Change value of input: 69
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:35.687] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:35.687] Search for element By.linkText: Цены]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:35.717] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:35.963] Search for element By.id: form_step2_price_ttc]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:36.011] Change value of input: 
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:36.228] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:36.228] Search for element By.id: form_step2_price_ttc]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:36.312] Change value of input: 1,05
-]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:36.526] Changed element input]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:36.526] Search for element By.className: switch-input]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:36.557] Click on element div]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:36.842] Search for element By.className: growl-close]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:37.092] Search for element By.className: growl-close]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:37.128] Click on element div]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:37.378] Search for element By.xpath: //button[@type='submit']/span[contains(text(), 'Сохранить')]]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:37.411] Click on element span]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:37.726] Search for element By.className: growl-close]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:37.818] Search for element By.className: growl-close]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:37.861] Click on element div]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:38.109] Search for element By.xpath: //button[@type='submit']/span[contains(text(), 'Сохранить')]]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- createNewProduct -->
-        <test-method status="PASS" signature="checkProductDisplayedInTheTable()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@bc464]" name="checkProductDisplayedInTheTable" duration-ms="3478" started-at="2017-10-12T11:22:38Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.createNewProduct" finished-at="2017-10-12T11:22:41Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Checking product is displayed on the ShopMainPage <br />]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:38.185] Navigate to http://prestashop-automation.qatestlab.com.ua/]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:39.975] Search for element By.partialLinkText: Все товары]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:40.139] Search for element By.partialLinkText: Все товары]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:40.166] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:41.452] Search for element By.xpath: //h1[@class='h3 product-title']/a]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- checkProductDisplayedInTheTable -->
-        <test-method status="PASS" signature="checkProductValues()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@bc464]" name="checkProductValues" duration-ms="2706" started-at="2017-10-12T11:22:41Z" depends-on-methods="myprojects.automation.assignment4.tests.CreateProductTest.checkProductDisplayedInTheTable" finished-at="2017-10-12T11:22:44Z">
-          <reporter-output>
-            <line>
-              <![CDATA[Checking product name, quantity and price corresponds to filled in AdminPanel <br />]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:41.663] Search for element By.xpath: //h1[@class='h3 product-title']/a]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:41.692] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:41.793] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:41.889] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:41.982] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:42.076] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:42.171] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:42.277] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:42.383] Click on element a]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:43.916] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:44.122] Search for element By.tagName: h1]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:44.288] Search for element By.className: product-quantities]]>
-            </line>
-            <line>
-              <![CDATA[[11:22:44.334] Search for element By.className: current-price]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- checkProductValues -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:myprojects.automation.assignment4.tests.CreateProductTest@bc464]" name="tearDown" is-config="true" duration-ms="10361" started-at="2017-10-12T11:22:44Z" finished-at="2017-10-12T11:22:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- myprojects.automation.assignment4.tests.CreateProductTest -->
-    </test> <!-- Create New Product [FIREFOX] -->
-  </suite> <!-- Products Management -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
 </testng-results>

@@ -1,6 +1,12 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="Products Management" verbose="1" >
+
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
     <test name="Create New Product [Chrome]" >
         <!--configure test to execute testing script using Chrome browser-->
         <parameter name="defaultBrowser" value="chrome"/>

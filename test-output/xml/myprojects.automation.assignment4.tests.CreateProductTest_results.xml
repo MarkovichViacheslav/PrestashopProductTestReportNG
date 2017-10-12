@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Create New Product [IE]"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="57,381">
+  <properties />
+  
+  
+            <testcase name="createNewProduct" time="25,090" classname="myprojects.automation.assignment4.tests.CreateProductTest" />
+                <testcase name="loginTest" time="10,436" classname="myprojects.automation.assignment4.tests.CreateProductTest" />
+                <testcase name="checkProductDisplayedInTheTable" time="7,942" classname="myprojects.automation.assignment4.tests.CreateProductTest" />
+                <testcase name="checkProductValues" time="13,913" classname="myprojects.automation.assignment4.tests.CreateProductTest" />
+      
+</testsuite>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Create New Product [FIREFOX]</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Create New Product [FIREFOX]</h1>
+<p>
+  Test duration: 61,415s
+</p>
+
+
+
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">myprojects.automation.assignment4.tests.CreateProductTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  checkProductDisplayedInTheTable
+      </td>
+  <td class="duration">
+    3,282s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Checking product is displayed on the ShopMainPage &lt;br /&gt;<br />
+                                [13:07:07.441] Navigate to http://prestashop-automation.qatestlab.com.ua/<br />
+                                [13:07:09.132] Search for element By.partialLinkText: Все товары<br />
+                                [13:07:09.255] Search for element By.partialLinkText: Все товары<br />
+                                [13:07:09.28 ] Click on element a<br />
+                                [13:07:10.494] Search for element By.xpath: //h1[@class=&apos;h3 product-title&apos;]/a<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  checkProductValues
+      </td>
+  <td class="duration">
+    2,267s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Checking product name, quantity and price corresponds to filled in AdminPanel &lt;br /&gt;<br />
+                                [13:07:10.722] Search for element By.xpath: //h1[@class=&apos;h3 product-title&apos;]/a<br />
+                                [13:07:10.755] Search for element By.tagName: h1<br />
+                                [13:07:10.863] Search for element By.tagName: h1<br />
+                                [13:07:10.955] Search for element By.tagName: h1<br />
+                                [13:07:11.053] Search for element By.tagName: h1<br />
+                                [13:07:11.153] Search for element By.tagName: h1<br />
+                                [13:07:11.246] Search for element By.tagName: h1<br />
+                                [13:07:11.344] Search for element By.tagName: h1<br />
+                                [13:07:11.441] Search for element By.tagName: h1<br />
+                                [13:07:11.549] Click on element a<br />
+                                [13:07:12.796] Search for element By.tagName: h1<br />
+                                [13:07:12.903] Search for element By.tagName: h1<br />
+                                [13:07:12.93 ] Search for element By.className: product-quantities<br />
+                                [13:07:12.962] Search for element By.className: current-price<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  createNewProduct
+      </td>
+  <td class="duration">
+    15,443s
+  </td>
+  <td class="result">
+        
+    
+            <div class="testOutput">
+                        Add new Product in admin panel &lt;br /&gt;<br />
+                                [13:06:51.994] Search for element By.id: subtab-AdminCatalog<br />
+                                [13:06:52.422] Click on element li<br />
+                                [13:06:56.466] Search for element By.id: page-header-desc-configuration-add<br />
+                                [13:06:56.529] Click on element a<br />
+                                [13:07:03.158] Search for element By.id: form_step1_name_1<br />
+                                [13:07:03.347] Search for element By.id: form_step1_name_1<br />
+                                [13:07:03.382] Change value of input: New Product 1507802811994<br/>
+<br />
+                                [13:07:03.709] Changed element input<br />
+                                [13:07:03.709] Search for element By.linkText: Количества<br />
+                                [13:07:03.751] Click on element a<br />
+                                [13:07:03.972] Search for element By.id: form_step3_qty_0<br />
+                                [13:07:04.012] Change value of input: <br/>
+<br />
+                                [13:07:04.104] Changed element input<br />
+                                [13:07:04.104] Search for element By.id: form_step3_qty_0<br />
+                                [13:07:04.141] Change value of input: 5<br/>
+<br />
+                                [13:07:04.25 ] Changed element input<br />
+                                [13:07:04.25 ] Search for element By.linkText: Цены<br />
+                                [13:07:04.28 ] Click on element a<br />
+                                [13:07:04.523] Search for element By.id: form_step2_price_ttc<br />
+                                [13:07:04.561] Change value of input: <br/>
+<br />
+                                [13:07:04.753] Changed element input<br />
+                                [13:07:04.753] Search for element By.id: form_step2_price_ttc<br />
+                                [13:07:04.801] Change value of input: 43,32<br/>
+<br />
+                                [13:07:05.094] Changed element input<br />
+                                [13:07:05.094] Search for element By.className: switch-input<br />
+                                [13:07:05.123] Click on element div<br />
+                                [13:07:05.407] Search for element By.className: growl-close<br />
+                                [13:07:05.643] Search for element By.className: growl-close<br />
+                                [13:07:05.681] Click on element div<br />
+                                [13:07:05.921] Search for element By.xpath: //button[@type=&apos;submit&apos;]/span[contains(text(), &apos;Сохранить&apos;)]<br />
+                                [13:07:05.952] Click on element span<br />
+                                [13:07:06.324] Search for element By.className: growl-close<br />
+                                [13:07:06.962] Search for element By.className: growl-close<br />
+                                [13:07:07.061] Search for element By.className: growl-close<br />
+                                [13:07:07.093] Click on element div<br />
+                                [13:07:07.358] Search for element By.xpath: //button[@type=&apos;submit&apos;]/span[contains(text(), &apos;Сохранить&apos;)]<br />
+                  </div>
+    
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  loginTest
+      </td>
+  <td class="duration">
+    11,227s
+  </td>
+  <td class="result">
+        
+          <i>Method arguments: </i><span class="arguments">"webinar.test@gmail.com", "Xcg7299bnSmMuRLp9ITw"</span><br />
+    
+            <div class="testOutput">
+                        Logging to website &lt;br /&gt;<br />
+                                [13:06:40.766] Navigate to http://prestashop-automation.qatestlab.com.ua/admin147ajyvk0/<br />
+                                [13:06:44.573] Search for element By.id: email<br />
+                                [13:06:44.838] Change value of input: webinar.test@gmail.com<br/>
+<br />
+                                [13:06:47.438] Changed element input<br />
+                                [13:06:47.439] Search for element By.id: passwd<br />
+                                [13:06:47.705] Change value of input: Xcg7299bnSmMuRLp9ITw<br/>
+<br />
+                                [13:06:48.859] Changed element input<br />
+                                [13:06:48.859] Search for element By.name: submitLogin<br />
+                                [13:06:48.893] Click on element button<br />
+                                [13:06:49.784] Search for element By.id: subtab-AdminCatalog<br />
+                                [13:06:51.537] Search for element By.tagName: h2<br />
+                  </div>
+    
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>
