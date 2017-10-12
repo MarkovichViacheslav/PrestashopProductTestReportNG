@@ -22,12 +22,9 @@ public class ProductData {
         return name;
     }
 
-   /* public Integer getQty() {
-        return qty;
-    }*/
-   public String getQty(){
-      return String.valueOf(qty);
-   }
+    public String getQty() {
+        return String.valueOf(qty);
+    }
 
     public String getPrice() {
         DecimalFormatSymbols separators = new DecimalFormatSymbols();

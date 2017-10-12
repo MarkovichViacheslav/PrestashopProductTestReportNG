@@ -3,14 +3,12 @@ package myprojects.automation.assignment4.tests;
 import myprojects.automation.assignment4.BaseTest;
 import myprojects.automation.assignment4.model.ProductData;
 import org.openqa.selenium.By;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import org.openqa.selenium.WebElement;
 
-import java.util.List;
+
 
 public class CreateProductTest extends BaseTest {
 
@@ -26,15 +24,15 @@ public class CreateProductTest extends BaseTest {
         Reporter.log("Logging to website <br />");
         actions.open();
         actions.login(login, password);
-       // Assert.assertEquals(driver.findElement(By.id("subtab-AdminCatalog")).getText(), "Каталог");
         Assert.assertEquals(driver.findElement(By.tagName("h2")).getText(), "Пульт");
     }
 
     @Test(dependsOnMethods = "loginTest")
-    public void createNewProduct() throws InterruptedException {
+    public void createNewProduct() {
         // TODO implement test for product creation
         Reporter.log("Add new Product in admin panel <br />");
         actions.createProduct(ProductData.generate());
+        Assert.assertTrue(driver.findElement(By.xpath("//button[@type='submit']/span[contains(text(), 'Сохранить')]")).isDisplayed());
     }
 
     @Test(dependsOnMethods = "createNewProduct")
@@ -42,7 +40,8 @@ public class CreateProductTest extends BaseTest {
         // TODO implement logic to check product visibility on website
         Reporter.log("Checking product is displayed on the ShopMainPage <br />");
         actions.goToShopMainPage();
-        Assert.assertTrue(actions.checkRecordNewlyCreatedProduct());
+        Assert.assertEquals(actions.findProductTableRecord(), actions.getRecordProductName());
+
     }
 
     @Test(dependsOnMethods = "checkProductDisplayedInTheTable")
@@ -50,6 +49,8 @@ public class CreateProductTest extends BaseTest {
         // TODO implement logic to check product visibility on website
         Reporter.log("Checking product name, quantity and price corresponds to filled in AdminPanel <br />");
         actions.openCreatedProduct();
-        Assert.assertTrue(actions.checkProductName());
+        Assert.assertEquals(driver.findElement(By.tagName("h1")).getText(), actions.getRecordProductName().toUpperCase());
+        Assert.assertTrue(driver.findElement(By.className("product-quantities")).getText().contains(actions.getRecordQtyName()));
+        Assert.assertTrue(driver.findElement(By.className("current-price")).getText().contains(actions.getRecordPriceName()));
     }
 }

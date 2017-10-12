@@ -1,6 +1,7 @@
 package myprojects.automation.assignment4.utils.logging;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.events.WebDriverEventListener;
@@ -90,7 +91,6 @@ public class EventHandler implements WebDriverEventListener {
 
     @Override
     public void afterClickOn(WebElement element, WebDriver driver) {
-        CustomReporter.log("Succesfully clicking on " + element.getTagName());
     }
 
     @Override

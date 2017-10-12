@@ -7,9 +7,21 @@
         <classes>
             <class name="myprojects.automation.assignment4.tests.CreateProductTest"/>
         </classes>
-        <!--configure test to execute testing script using Chrome browser-->
     </test>
 
     <!--Prepare test for firefox and IE browsers-->
+    <test name="Create New Product [IE]" >
+        <parameter name="defaultBrowser" value="internet explorer"/>
+        <classes>
+            <class name="myprojects.automation.assignment4.tests.CreateProductTest"/>
+        </classes>
+    </test>
+
+    <test name="Create New Product [FIREFOX]" >
+        <parameter name="defaultBrowser" value="firefox"/>
+        <classes>
+            <class name="myprojects.automation.assignment4.tests.CreateProductTest"/>
+        </classes>
+    </test>
 
 </suite>
